@@ -47,7 +47,8 @@
 
 -(void)dealloc
 {
-    [self removeObserver:self forKeyPath:@"text"];
+    [self.label_str2 removeObserver:self forKeyPath:@"text"];
+
 }
 
 #pragma mark - CustomDelegate
